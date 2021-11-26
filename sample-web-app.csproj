@@ -5,10 +5,4 @@
     <RootNamespace>sample_web_app</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="kubectl_deploy\development\deployment.yaml" />
-    <None Remove="kubectl_deploy\development\ingress.yaml" />
-    <None Remove="kubectl_deploy\development\service.yaml" />
-    <None Remove="Dockerfile" />
-  </ItemGroup>
 </Project>
